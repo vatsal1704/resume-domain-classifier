@@ -11,7 +11,9 @@ import pickle
 import docx  # Extract text from Word file
 import PyPDF2  # Extract text from PDF
 import re
-
+import gdown
+file_url = "https://drive.google.com/file/d/1vQi73uuWL1X-UPumNjbf1363GElghKxY/view?usp=sharing"
+gdown.download(file_url, "clf.pkl", quiet=False)
 # Load pre-trained model and TF-IDF vectorizer (ensure these are saved earlier)
 svc_model = pickle.load(open('clf.pkl', 'rb'))  # Example file name, adjust as needed
 tfidf = pickle.load(open('tfidf.pkl', 'rb'))  # Example file name, adjust as needed
