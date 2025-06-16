@@ -125,7 +125,6 @@ def main():
 
 
 if __name__ == "__main__":
-=======
 # you need to install all these in your terminal
 # pip install streamlit
 # pip install scikit-learn
