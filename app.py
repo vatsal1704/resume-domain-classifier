@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # you need to install all these in your terminal
 # pip install streamlit
 # pip install scikit-learn
@@ -250,5 +250,4 @@ def main():
 
 
 if __name__ == "__main__":
->>>>>>> a05543db6279abe095aa58c4d473dd833950a833
     main()
